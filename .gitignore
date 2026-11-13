@@ -1,0 +1,21 @@
+__pycache__/
+
+.pytest_cache/
+
+.venv/
+
+*.py[cod]
+
+# Keep the database and uploaded images
+
+!instance/
+
+!instance/unifind.db
+
+!instance/uploads/
+
+# Keep secrets out of GitHub
+
+.env
+
+.env.*
